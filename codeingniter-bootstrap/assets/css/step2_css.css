@@ -1,0 +1,590 @@
+html {
+overflow-y: scroll;
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+
+font-weight: inherit;
+font-style: inherit;
+font-size: 100%;
+font-family: inherit;
+vertical-align: baseline;
+
+display: block;
+
+
+
+}
+
+
+
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-weight: inherit;
+font-style: inherit;
+font-size: 100%;
+font-family: inherit;
+vertical-align: baseline;
+-webkit-text-size-adjust: 100%;
+}
+
+
+
+div {
+display: block;
+}
+
+
+
+
+
+
+body{
+
+font-family: Arial,sans-serif;
+background-color: #e6e6e6;
+font-size: 62.5%;
+line-height: 1.2;
+color: #000;
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+
+font-weight: inherit;
+font-style: inherit;
+
+vertical-align: baseline;
+
+display: block;
+
+
+}
+
+
+html[Attributes Style] {
+-webkit-locale: en;
+}
+
+
+
+
+#header {
+margin: 0 auto;
+width: 80.5em;
+min-width: 805px;
+
+clear: both;
+max-width: 95%;
+
+
+display: block;
+
+
+
+}
+
+
+
+
+#logo{
+
+float: left;
+margin: 8px 10px 0 4px;
+position: relative;
+
+}
+
+
+
+img{
+
+	border: none;
+}
+
+
+div{
+
+	display: block;
+}
+
+
+/* <!-- ************************************** Background Color + Header Above ******************************************* !--> */
+
+
+
+
+#body {
+background: #fff;
+padding: 0;
+border: 1px solid #ccc;
+
+
+width: 80.5em;
+min-width: 805px;
+max-width: 95%;
+
+clear: both;
+margin: 0 auto;
+
+
+
+
+
+
+}
+
+
+
+
+#main {
+zoom: 1;
+
+
+padding: 15px;
+
+}
+
+
+#main_confirm{
+
+padding-top: 80px;
+
+padding-bottom: 200px;
+
+}
+
+
+.progress-container {
+overflow: hidden;
+zoom: 1;
+border-bottom: 1px solid #ccc;
+padding-bottom: 6px;
+margin-bottom: 18px;
+}
+
+
+.progress-container h1 {
+font-weight: normal;
+font-size: 160%;
+
+
+width: 75%;
+float: left;
+
+
+color: #39c;
+
+
+}
+
+
+
+.progress-container p.progress {
+float: right;
+margin-top: 1px;
+width: 22%;
+
+overflow: hidden;
+zoom: 1;
+
+
+}
+
+
+.progress-container .summary {
+font-size: 130%;
+float: left;
+}
+
+
+strong {
+font-weight: bold;
+}
+
+
+
+.progress-container .progress-meter {
+float: right;
+
+border: 1px solid #666;
+overflow: hidden;
+width: 100px;
+height: 12px;
+display: block;
+
+
+
+
+
+}
+
+
+
+.progress-meter .has-progress {
+
+width:25%;
+border-right: 1px solid #666;
+background: transparent url('https://static.licdn.com/scds/common/u/img/sprite/sprite_progress_meter_v1.png') repeat-x 0 -50px;
+
+
+height: 12px;
+display: block;
+
+
+}
+
+
+
+
+#get-started{
+
+
+	width: 550px;
+	margin: auto;
+
+background: #DDF0F8;
+border: 1px solid #9acce6;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+border-radius: 6px;
+padding: 0;
+
+
+
+
+}
+
+
+
+
+#get-started .header{
+
+	margin: 0;
+padding: 5px 10px;
+color: #069;
+
+border-top-left-radius: 6px;
+border-top-right-radius: 6px;
+
+
+}
+
+
+#get-started .content{
+
+	background: #DDF0F8;
+border: none;
+-moz-border-radius: 0;
+-webkit-border-radius: 0;
+border-radius: 0;
+color: #333;
+overflow: hidden;
+padding: 0 15px 20px 15px;
+zoom: 1;
+
+
+border-width: 0 1px 1px;
+
+
+}
+
+
+
+.content .introduction{
+
+	font-size: 130%;
+margin: 5px 10px 15px 10px;
+}
+
+
+
+
+#email_lbl{
+
+	width: 125px;
+	font-size: 13px;
+color: #333;
+background-color: transparent;
+font-weight: bold;
+float: left;
+text-align: right;
+margin-right: 10px;
+
+
+}
+
+
+.fieldgroup {
+margin-left: 120px;
+_margin-left: 198px;
+padding: 0;
+
+
+}
+
+
+ul{
+
+	list-style: none;
+}
+
+
+
+.form-row {
+
+display: inline-block;
+vertical-align: middle;
+zoom: 1;
+position: relative;
+}
+
+#email-nWMIForm {
+margin-right: 4px;
+
+float: left;
+
+
+
+}
+
+
+
+.form-row input{
+
+	width: 285px;
+	font-size: 13px;
+	font-family: Arial,sans-serif;
+
+	border: 1px solid #999;
+outline: none;
+padding: 2px 3px;
+background-color: #fff;
+}
+
+
+
+p.continue{
+
+	margin-left: 135px;
+	margin-top: .25em;
+	color: #333;
+
+	margin-top: 10px;
+
+}
+
+
+
+#resolve-btn {
+font-size: 13px;
+font-family: Arial,sans-serif;
+}
+
+.btn-primary{
+
+
+
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #73aec9), color-stop(5%, #73aec9), color-stop(5%, #338ab0), color-stop(100%, #0571a6));
+	border-color: #045a8b;
+color: #fff !important;
+
+border-width: 1px;
+border-style: solid;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+cursor: pointer;
+line-height: 1.35;
+margin: 0;
+overflow: visible;
+padding: 3px 10px 2px;
+text-decoration: none !important;
+vertical-align: top;
+width: auto;
+
+}
+
+
+
+p.note{
+
+	margin-left: 135px;
+	font-size: 11px;
+color: #666;
+
+margin-top: .25em;
+
+
+
+}
+
+
+
+.skip {
+width: 550px;
+margin: 15px auto 40px auto;
+text-align: right;
+font-size: 130%;
+
+
+
+}
+
+
+
+
+
+.skip a{
+
+	color: #069;
+	text-decoration: none;
+}
+
+
+
+.skip a:hover{
+
+	color: #069;
+	text-decoration: underline;
+}
+
+
+
+
+#footer {
+border: none;
+padding: 0 0 0 8px;
+
+width: 80.5em;
+_width: 805px;
+min-width: 805px;
+
+margin: 20px auto;
+
+color: #666;
+clear: both;
+
+max-width: 95%;
+
+
+}
+
+
+
+p#copyright {
+float: left;
+border-right: 1px solid #ccc;
+padding: 0 8px 0 0;
+margin-right: 8px;
+
+
+
+}
+
+
+
+
+#footer p{
+
+margin: 0;
+list-style-type: none;
+font-size: 110%;
+
+
+}
+
+p#terms-of-use {
+margin-bottom: 8px;
+margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+/*
+
+Data of page Confirm_Account starts from here
+
+*/
+
+
+h1.confirm{
+
+	font-weight: normal;
+font-size: 160%;
+color: #39c;
+
+
+}
+
+
+
+p.c_line{
+
+	font-size: 130%;
+margin: 10px 0 15px;
+}
+
+
+#button_area{
+
+
+	margin: 0;
+font-size: 100%;
+
+
+}
+
+
+
+input{
+	font-family: Arial,sans-serif;
+
+}
+
+
+#button_area .alternate{
+
+display: block;
+float: right;
+
+}
+
+
+
+
+#button_area a{
+
+	color: #069;
+	font-size: 130%;
+	text-decoration: none;
+}
+
+
+#button_area a:hover{
+
+	text-decoration: underline;
+	color: #069;
+}
+
+
+
+
+
+
+
+
+
+
+

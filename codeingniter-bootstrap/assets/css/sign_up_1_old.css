@@ -1,0 +1,795 @@
+html {
+overflow-y: scroll;
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+
+font-weight: inherit;
+font-style: inherit;
+font-size: 100%;
+font-family: inherit;
+vertical-align: baseline;
+
+display: block;
+
+
+
+}
+
+
+
+body{
+
+font-family: Arial,sans-serif;
+background-color: #e6e6e6;
+font-size: 62.5%;
+line-height: 1.2;
+color: #000;
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+
+font-weight: inherit;
+font-style: inherit;
+
+vertical-align: baseline;
+
+display: block;
+
+
+}
+
+
+html[Attributes Style] {
+-webkit-locale: en;
+}
+
+
+
+
+#header {
+margin: 0 auto;
+width: 80.5em;
+min-width: 805px;
+
+clear: both;
+max-width: 95%;
+
+
+display: block;
+
+
+
+}
+
+
+
+
+#logo{
+
+float: left;
+margin: 8px 10px 0 4px;
+position: relative;
+
+}
+
+
+
+img{
+
+	border: none;
+}
+
+
+div{
+
+	display: block;
+}
+
+
+#body{
+
+background: #fff;
+padding: 0;
+border: 1px solid #ccc;
+
+/*width: 80.5em; */
+
+width: 830px;
+min-width: 805px;
+clear: both;
+
+max-width: 95%;
+margin: 0 auto;
+
+height: 500px;
+
+
+
+}
+
+
+
+#body_wrapper{
+
+
+	padding: 15px;
+
+
+}
+
+
+#main {
+zoom: 1;
+}
+
+
+
+.progress-container 
+{
+overflow: hidden;
+zoom: 1;
+border-bottom: 1px solid #ccc;
+padding-bottom: 6px;
+margin-bottom: 18px;
+}
+
+
+#main h1 {
+font-size: 17px;
+}
+
+
+#main h1 {
+font-weight: normal;
+
+}
+
+
+
+
+
+.progress-container h1 {
+width: 75%;
+float: left;
+color: #39c;
+}
+
+
+strong {
+font-weight: bold;
+}
+
+
+#motivation {
+width: 280px;
+_width: 270px;
+float: right;
+margin-top: 10px;
+display: inline;
+position: relative;
+z-index: 1;
+
+background-color: #fff;
+
+}
+
+
+#motivation .profile-features {
+border: 1px solid #baddee;
+padding: 10px;
+}
+
+#motivation .profile-features h3 {
+font-weight: bold;
+margin-bottom: 2px;
+font-size: 140%;
+margin-bottom: 10px;
+background: #fff url('https://static.licdn.com/scds/common/u/img/icon/icon_lightbulb_10x17.png') no-repeat;
+padding-left: 20px;
+}
+
+
+ul {
+list-style: none;
+}
+
+
+#motivation .profile-features li.first {
+margin-top: 0;
+}
+
+
+ #motivation .profile-features  li {
+
+ 	margin-left: -40px;
+ 	width: 258px;
+ 	height: 15px;
+ 	margin-top: 8px;
+font-size: 130%;
+background: #fff url('https://static.licdn.com/scds/common/u/img/sprite/sprite_registration_v2.png') no-repeat scroll 0 -297px;
+padding-left: 15px;
+
+
+}
+
+
+
+li {
+display: list-item;
+text-align: -webkit-match-parent;
+}
+
+
+
+#employed-form{
+
+	display: block;
+
+	width: 485px;
+margin: 0 0 20px;
+float: left;
+
+padding: 0;
+border: 0;
+outline: 0;
+font-weight: inherit;
+font-style: inherit;
+font-size: 100%;
+font-family: inherit;
+vertical-align: baseline;
+
+
+
+}
+
+
+
+
+div.alert.error {
+background: #fee url('https://static.licdn.com/scds/common/u/img/sprite/sprite_global_v8.png') no-repeat 7px -643px;
+}
+
+
+
+div.alert {
+color: #333;
+margin: 0 0 15px;
+padding: 6px 7px 6px 35px;
+overflow: hidden;
+min-height: 28px;
+position: relative;
+}
+
+
+
+div.alert p, div.alert h3 {
+font-size: 13px;
+margin: 7px 21px 5px 7px;
+}
+
+
+
+form ul {
+margin: 0;
+padding-top: 10px;
+list-style-type: none;
+list-style: none;
+}
+
+form li {
+margin-bottom: 10px;
+}
+
+
+abbr, acronym {
+border: none;
+}
+
+
+label em {
+color: #900;
+}
+
+
+
+label{
+
+width: 150px;
+
+
+font-size: 13px;
+color: #333;
+background-color: transparent;
+font-weight: bold;
+display: block;
+float: left;
+text-align: right;
+margin-right: 10px;
+
+
+}
+
+
+.fieldgroup {
+margin-left: 120px;
+}
+
+
+.fieldgroup select{
+
+	width: 300px;
+	-webkit-box-sizing: border-box;
+
+	font-size: 13px;
+	font-family: Arial,sans-serif;
+
+	outline: none;
+
+	border-radius: 0px;
+
+
+-webkit-appearance: menulist;
+align-items: center;
+border: 1px solid;
+border-image-source: initial;
+border-image-slice: initial;
+border-image-width: initial;
+border-image-outset: initial;
+border-image-repeat: initial;
+white-space: pre;
+-webkit-rtl-ordering: logical;
+color: black;
+background-color: white;
+cursor: default;
+
+
+
+margin: 0em;
+font: -webkit-small-control;
+letter-spacing: normal;
+word-spacing: normal;
+text-transform: none;
+text-indent: 0px;
+text-shadow: none;
+display: inline-block;
+text-align: start;
+
+
+-webkit-writing-mode: horizontal-tb;
+
+}
+
+
+
+.fieldgroup input{
+
+
+	width: 300px;
+
+	-webkit-box-sizing: border-box;
+
+	font-size: 13px;
+	font-family: Arial,sans-serif;
+
+	background-color: #fff;
+
+	-webkit-appearance: textfield;
+
+	-webkit-rtl-ordering: logical;
+-webkit-user-select: text;
+cursor: auto;
+
+
+margin: 0em;
+font: -webkit-small-control;
+color: initial;
+letter-spacing: normal;
+word-spacing: normal;
+text-transform: none;
+text-indent: 0px;
+text-shadow: none;
+display: inline-block;
+text-align: start;
+
+-webkit-writing-mode: horizontal-tb;
+
+
+
+
+
+
+}
+
+
+form ul input.text-input {
+border: 1px solid #999;
+padding: 2px 3px;
+}
+
+
+
+
+
+
+#status-chooser-container {
+margin: 12px 0 16px;
+}
+
+
+ li fieldset {
+background: none;
+border: none;
+margin: 0;
+padding: 0;
+}
+
+
+
+fieldset legend {
+position: relative;
+line-height: 3.0;
+padding: 0;
+margin: 0;
+
+font-size: 180%;
+color: #333;
+background-color: #fff;
+
+
+}
+
+
+fieldset legend span{
+
+
+	width: 110px;
+
+	font-size: 13px;
+position: absolute;
+white-space: normal;
+
+color: #333;
+background-color: transparent;
+font-weight: bold;
+display: block;
+float: left;
+text-align: right;
+margin-right: 10px;
+
+
+}
+
+
+ul ul {
+margin-left: 80px;
+}
+
+
+
+#status-chooser-container li {
+float: left;
+}
+
+
+li li {
+margin-bottom: 0;
+}
+
+
+#status-chooser-container li label {
+width: auto;
+}
+
+
+fieldset label{
+
+	font-weight: normal;
+float: none;
+text-align: left;
+line-height: 0;
+margin-bottom: 0;
+}
+
+#status-chooser-container fieldset input {
+margin-right: 5px;
+}
+
+
+
+#inp_error , .inp_error{
+
+
+	font-size: 12px;
+color: #900;
+font-weight: bold;
+
+}
+
+
+.self-employed .fieldgroup input{
+
+	border: 0;
+padding: 1px 0;
+
+width: auto;
+margin-left: 0;
+
+font-size: 13px;
+
+outline: none;
+
+
+}
+
+
+input[type="checkbox"] {
+margin: -4px 3px 3px 4px;
+
+-webkit-appearance: checkbox;
+
+
+}
+
+
+.self-employed label {
+width: auto;
+float: none;
+display: inline;
+font-weight: normal;
+font-size: 11px;
+
+background-color: transparent;
+
+margin-right: 10px;
+
+
+}
+
+
+
+
+
+p.actions {
+margin-top: 15px;
+background: transparent;
+padding-top: 0;
+
+font-size: 13px;
+
+
+}
+
+
+p {
+margin-left: 160px;
+color: #333;
+
+}
+
+
+p.actions input {
+font-size: inherit;
+vertical-align: middle;
+font-family: Arial,sans-serif;
+
+
+
+}
+
+
+
+
+.btn-primary
+
+{
+
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #73aec9), color-stop(5%, #73aec9), color-stop(5%, #338ab0), color-stop(100%, #0571a6));
+	border-color: #045a8b;
+color: #fff !important;
+
+border-width: 1px;
+border-style: solid;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+cursor: pointer;
+line-height: 1.35;
+margin: 0;
+overflow: visible;
+padding: 3px 10px 2px;
+text-decoration: none !important;
+width: auto;
+
+
+
+}
+
+
+
+
+
+input[type="submit"]{
+
+
+	align-items: flex-start;
+text-align: center;
+
+border-image-source: initial;
+border-image-slice: initial;
+border-image-width: initial;
+border-image-outset: initial;
+border-image-repeat: initial;
+
+box-sizing: border-box;
+
+-webkit-appearance: push-button;
+white-space: pre;
+
+
+-webkit-rtl-ordering: logical;
+-webkit-user-select: text;
+
+
+
+font: -webkit-small-control;
+letter-spacing: normal;
+word-spacing: normal;
+text-transform: none;
+text-indent: 0px;
+text-shadow: none;
+display: inline-block;
+
+
+-webkit-writing-mode: horizontal-tb;
+
+
+
+
+
+}
+
+
+
+
+
+p.key {
+margin-left: 160px;
+
+font-size: 11px;
+color: #666;
+margin-top: 15px;
+
+
+}
+
+
+
+
+li.time-period{
+
+
+margin-top: 20px;
+margin-bottom: 10px;
+
+}
+
+
+
+
+
+select.start-year {
+
+
+	width: 80px;
+	height: 20px;
+}
+
+
+li.time-period span{
+
+	color: #000;
+	font-size: 130%;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+
+
+
+li.time-period p {
+
+margin-left: 118px;
+	font-size: 11px;
+color: #666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p.key strong {
+vertical-align: top;
+color: #900;
+font-size: 13px;
+}
+
+
+
+
+
+#footer {
+
+	position: relative;
+
+
+border: none;
+padding: 0 0 0 8px;
+
+
+width: 80.5em;
+min-width: 805px;
+
+
+margin: 20px auto;
+color: #666;
+clear: both;
+
+
+
+}
+
+
+
+
+p#copyright {
+margin-left: 0px;
+border-right: 1px solid #ccc;
+padding: 0 8px 0 0;
+margin-right: 8px;
+
+color: #666;
+
+}
+
+#footer p {
+font-size: 110%;
+
+
+}
+
+
+.radio_move{
+
+	margin-left:40px;
+}
+
+
+/*
+
+Signup JavaScript Changes
+
+*/
+
+
+#employee_e1 , #employee_e2 , #employee_e3 , #top_error , .job_seeker_e1 , .job_seeker_e2 , #student_e1 {
+
+	display: none;
+}
+
+
+
+
+
